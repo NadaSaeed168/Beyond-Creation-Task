@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Calibri";
+    src: url(C:/Users/Nada/Desktop/Task/task/src/Components/Fonts/Calibri.ttf);
+}
+
+.WhoWeAre{
+    background-color: #361551;
+    height: 647px;
+}
+
+#whowearetxt{
+    color: #D30E5D;
+    font-size: 68px;
+    font-family: "arialblack";
+    text-transform: uppercase;
+    padding-top: 72px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#txtunderwhoweare{
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: "calibribold";
+    font-size: 24px;
+    width: 883px;
+    margin-top: 23px;
+}
+
+.circles{
+    width: 121px;
+    height: 122px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #D30E5D;
+    margin-top: 104px;
+    margin-bottom: 130px;
+    float: left;
+}
+
+.beside{
+    float: left;
+    width: 50%;
+}
+
+#circle1{
+    margin-left: 249px;
+}
+
+.horse{
+    width: 51px;
+    height: 67px;
+    margin-top: 23px;
+    margin-left: 38px;
+    margin-right: 32px;
+}
+
+.horsetext{
+    font-family: "Calibri";
+    font-size: 14px;
+    color: white;
+    letter-spacing: 0.5px;
+    text-align: left;
+    float: left;
+    margin-top: 120px;
+}
+
+#text1{
+    width: 313px;
+    height: 98px;
+    margin-left: 18px;
+}
+
+#circle2{
+    margin-left: 100px;
+}
+
+.king{
+    width: 45px;
+    height: 78px;
+    margin-top: 19px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+#text2{
+    width: 298px;
+    height: 81px;
+    margin-left: 26px;
+    letter-spacing: 0.25px;
+}
+
+/* mobile */
+@media (max-width: 800px) {
+    .WhoWeAre{
+        height: 1165px;
+        background-size: 100%;
+        width: 360vw;
+    }
+
+    #whowearetxt{
+        padding-top: 66px;
+        margin-bottom: 0px;
+    }
+
+    #txtunderwhoweare{
+        margin-top: 36px;
+        width: 621px;
+    }
+
+    .circles{
+        width: 164px;
+        height: 163px;
+        float: none;
+    }
+
+    #circle1{
+        text-align: center;
+        margin: auto;
+        margin-top: 65px;
+    }
+
+    .beside{
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+    }
+
+    .horse{
+        width: 68px;
+        height: 90px;
+        margin-top: 30px;
+        margin-left: 52px;
+        margin-right: 44px;
+    }
+
+    .horsetext{
+        font-size: 19px;
+        text-align: center;
+        float: none;
+        margin: auto;
+    }
+
+    #text1{
+        width: 421px;
+        height: 131px;
+        margin: auto;
+        margin-top: 32px;
+    }
+
+    #circle2{
+        margin: auto;
+        margin-top: 73px;
+    }
+
+    .king{
+        width: 60px;
+        height: 105px;
+        margin-top: 25px;
+        margin-left: 52px;
+        margin-right: 51px;
+    }
+
+    #text2{
+        width: 401px;
+        height: 108px;
+        margin: auto;
+        margin-top: 35px;
+    }
+}

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "arialblack";
+    src: url(C:/Users/Nada/Desktop/Task/task/src/Components/Fonts/ariblk.ttf);
+}
+
+@font-face {
+    font-family: "calibribold";
+    src: url(C:/Users/Nada/Desktop/Task/task/src/Components/Fonts/calibrib.ttf);
+}
+
+.ins{
+    height: 747px;
+}
+
+#inspheader{
+    color: #D30E5D;
+    font-size: 68px;
+    font-family: "arialblack";
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 253px;
+    margin-top: 180px;
+}
+
+.side{
+    float: right;
+}
+
+.alltxt{
+    margin-left: 253px;
+    width: 425px;
+    height: 239px;
+}
+
+.inspsubheader{
+    color: #D30E5D;
+    font-family: "calibribold";
+    font-size: 25px;
+    text-align: left;
+}
+
+.chessgambit{
+    color: #361551;
+    width: 480px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.circlechess {
+    position: relative;
+    /* padding-top: 200px; */
+    /* margin-left: 86px; */
+    /* margin-left: 818px; */
+    display: inline-block;
+    margin-right: 217px;
+    /* z-index: 0; */
+}
+
+.bigcircle {
+    position: relative;
+    /* margin-top: 153px; */
+    width: 463px;
+    height: 436px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.chess{
+    position: absolute;
+    margin: auto;
+    margin-top: 94px;
+    margin-left: 45px;
+    width: 386px;
+    height: 253px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+/* mobile */
+@media (max-width: 800px) {
+    .ins{
+        width: 330vw;
+        height: 880px;
+    }
+    #inspheader{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 99px;
+    }
+    .alltxt{
+        margin: auto;
+        width: 70%;
+    }
+    .inspsubheader{
+        font-size: 30px;
+        line-height: 22px;
+    }
+    .chessgambit{
+        color: #361551;
+        width: 670px;
+        font-size: 15px;
+        text-align: left;
+    }
+    .side{
+        float: none;
+    }
+    .circlechess{
+        margin: auto;
+        width: 80%;
+        /* text-align: center; */
+    margin-right: 0px;
+        margin-left: 300px;
+    }
+    .bigcircle {
+        margin: auto;
+        margin-top: 0px;
+    }
+    .chess{
+        margin-top: 93px;
+    }
+}
